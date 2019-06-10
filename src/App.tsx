@@ -6,6 +6,7 @@ import BreadcrumbExample1 from './examples/breadcrumbs/BreadcrumbExample1';
 import ButtonExample1 from './examples/buttons/ButtonExample1';
 import ButtonToggleExample1 from './examples/buttons/ButtonToggleExample1';
 import CardExample1 from './examples/cards/CardExample1';
+import DataTableExample1 from './examples/tables/DataTableExample1';
 import Title from './examples/Title';
 import { VApp, VContainer, VContent, VFlex, VLayout } from './index';
 
@@ -28,6 +29,7 @@ const App = component({
                 <ButtonExample1 />
                 <ButtonToggleExample1 />
                 <CardExample1 />
+                <DataTableExample1 />
               </VFlex>
             </VLayout>
           </VContainer>
