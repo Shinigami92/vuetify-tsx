@@ -1,4 +1,4 @@
-import VDataTable from '@/components/VDataTable';
+import { VDataTable } from '@/components';
 import { component } from 'vue-tsx-support';
 import SubTitle from '../SubTitle';
 
@@ -12,7 +12,7 @@ type Header = {
 };
 
 const DataTableExample1 = component({
-  data: {
+  data: () => ({
     headers: [
       {
         text: 'Dessert (100g serving)',
@@ -122,7 +122,7 @@ const DataTableExample1 = component({
         );
       },
     },
-  },
+  }),
   render() {
     return (
       <div>
